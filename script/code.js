@@ -1,0 +1,2 @@
+let njee=[]
+njee.indexOf
