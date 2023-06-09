@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="convertor">
+            <div class="row">
+                <h2 class="display-2">Currency Convertor</h2>
+            </div>
+            <div class="row ">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col">
+                            <label for="currency1">First Currency :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="amount">Amount :</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="currency2">Second Currency :</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col">
+                        
+                            <select name="currency1" id="currency1">
+                                <option value="ZAR">South African Rand</option>
+                                <option value="USD">US Dollar</option>
+                                <option value="EURO">EURO</option>
+                                <option value="GBP">British Pound</option>
+                                <option value="JPY">Japanes Yen</option>
+                                <option value="CNY">Chinese Yuan Renminbi</option>
+                                <option value="KRW">South Korian Won</option>
+                                <option value="INR">Indain Rupee</option>
+                                <option value="RUB">Russian Rubie</option>
+                                <option value="NGN">Nigerian Naira</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+
+                            <input type="text" id="amount" class="amount">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                        
+                           <select name="currency2" id="currency2">
+                            <option value="ZAR">South African Rand</option>
+                            <option value="USD">US Dollar</option>
+                            <option value="EURO">EURO</option>
+                            <option value="GBP">British Pound</option>
+                            <option value="JPY">Japanes Yen</option>
+                            <option value="CNY">Chinese Yuan Renminbi</option>
+                            <option value="KRW">South Korian Won</option>
+                            <option value="INR">Indain Rupee</option>
+                            <option value="RUB">Russian Rubie</option>
+                            <option value="NGN">Nigerian Naira</option>
+                           </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label id="output"></label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="convertor">Convert</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="./script/code.js"></script>
+</body>
+</html>
